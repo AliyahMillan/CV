@@ -6,47 +6,163 @@
     <title>Meet Aliyah Millán</title>
     <link
       rel="icon"
-      href="https://cdn.glitch.com/3a266cab-3f02-4339-bba4-c461bf55d15d%2Fhacklock.jpg?v=1617422459476"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      href="https://cdn.glitch.com/3a266cab-3f02-4339-bba4-c461bf55d15d%2Fhacklock.jpg?v=1617422459476"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Add icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--Background image-->
+    <style>
+      body {
+        background-image: url("https://cdn.glitch.com/3a266cab-3f02-4339-bba4-c461bf55d15d%2Fwhite.jpg?v=1619625058315");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+    </style>
     <title>Aliyah Millán</title>
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css"/>
+    <link rel="stylesheet" href="/style.css" />
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
     <!--This will create a navigation bar-->
     <div class="navbar">
-      <div class="dropdown">
-        <button class="dropbtn">
-          Menu
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <div class="b">
-            <a href="index.html">Aliyah Millán</a>
-            <a href="resume.html">Résume</a>
-            <a href="accomplishments.html">Accomplishments</a>
-            <a href="contact.html">Contact</a>
-            <a href="projects.html">Projects</a>
-          </div>
-        </div>
+      <div class="b">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Résumé</a>
+        <a href="accomplishments.html">Accomplishments</a>
+        <a href="contact.html">Contact</a>
+        <a href="projects.html">Projects</a>
       </div>
     </div>
+
     <!--End of my navigation bar-->
+    <!--Start Login page-->
+    <style>
+      body,
+      html {
+        height: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      .bg-img {
+        /* The image used */
+        background-image: url("https://cdn.glitch.com/3a266cab-3f02-4339-bba4-c461bf55d15d%2Flock.jpg?v=1621280916287");
+        min-height: 380px;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      /* Add styles to the form container */
+      .container {
+        position: absolute;
+        right: 0;
+        margin: 10px;
+        max-width: 600px;
+        padding: 10px;
+        background-color: black;
+      }
+      /* Full-width input fields */
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #e6f5ff;
+      }
+      input[type="text"]:focus,
+      input[type="password"]:focus {
+        background-color: #e6f5ff;
+        outline: none;
+      }
+      /* Set a style for the submit button */
+      .btn {
+        background-color: #1a1aff;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+      }
+      .btn:hover {
+        opacity: 1;
+      }
+    </style>
+    <div class="bg-img">
+      <form action="/projects.html" class="container">
+        <h1><em style="color:white">Login</em></h1>
+
+        <label for="email"
+          ><em style="color:white"><b>Email</b></em></label
+        >
+        <input
+          type="text"
+          placeholder="Enter Email"
+          oninvalid="this.setCustomValidity('Email cannot be blank')"
+          name="email"
+          required
+        />
+        <br />
+        <label for="psw"
+          ><em style="color:white"><b>Password</b></em></label
+        >
+        <input
+          type="password"
+          placeholder="Enter Password"
+          oninvalid="this.setCustomValidity('Password cannot be blank')"
+          name="psw"
+          required
+        />
+        <br/><em style="color:white">Remember me: </em><input type="checkbox" name="remember" value="true" /><br/>
+        <br />
+        <button type="submit" class="btn">Login</button>
+      </form>
+    </div>
+    <!--End Login page-->
     <body>
-      <h1>Hi there!</h1>
+      <h1>
+        <em style="text-transform: uppercase">Hi, my name is Aliyah Millán</em>
+      </h1>
+      <h2>and I want to make a difference.</h2>
       <p>
-        Testing out to see if this shows
-        <a href="https://cdn.glitch.com/3a266cab-3f02-4339-bba4-c461bf55d15d%2FLOGO2.jpg?v=1612377909933"
-          target="_blank">an image</a>! 
-        <br>
-        My brief stint as a contributor to The Freelancer, La Serna High School's news platform:
-        <a href="https://lasernafreelancer.com/staff_name/aliyah-millan/"
-          target="_blank">This is the link.</a>
+        <br/>
+        <br><br><br><br> <br><br><br><br> <br><br>
+        
+        <!---->
+        <br /><br /><br /><br /><br /><br />
+        Dedicated<br />
+        People would describe me as a cheerful, eager, and self-motivated
+        teammate who has excellent communication skills.<br />
+        I enjoy reading and writing, and the knowledge and perspectives that
+        I've gained from my interests has strengthened my ability to pass on
+        those ideas to others.<br />
+        I attribute this success to my ability to plan, schedule, and handle
+        many different tasks at once. This flexibility will help me in the
+        classroom, where there are many different personalities and learning
+        styles.<br />
+        <br />
+        According to my college credits, I'm a junior, but I'm only just
+        finishing my second semester of classes at the university.<br />
+        Please note that this page is still under construction. <br />
+        Thank you for your patience :)
+
+        <!---->
       </p>
     </body>
   </html>
