@@ -2,7 +2,7 @@
 
 Hullo, my name is Aliyah Millán and this is my website.
 I am a student at California State University Fullerton (CSUF)
-and I'm using this website as a way to add to my resumé.
+and I'm using this website as a way to add to my résumé.
 
 ## My Project
 
